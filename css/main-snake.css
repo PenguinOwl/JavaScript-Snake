@@ -92,7 +92,7 @@ a.snake-link:hover {
     padding: 0px;
     position: absolute;
     background-color: #000000;
-    border: 0px solid #0000A8;
+    border: 0px solid #000000;
 }
 
 .snake-game-container {
