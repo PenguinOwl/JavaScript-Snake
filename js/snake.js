@@ -298,11 +298,8 @@ SNAKE.Snake = SNAKE.Snake || (function() {
         * @method eatFood
         */
         me.eatFood = function() {
-            if (blockPool.length <= blockPool.length * 2) {
-                createBlocks(blockPool.length);
-            }
+            createBlocks(blockPool.length);
             var blocks = blockPool.splice(0, blockPool.length);
-            
             var ii = blocks.length,
                 index,
                 prevNode = me.snakeTail;
